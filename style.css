@@ -1,0 +1,30 @@
+#body {
+  background-color: grey;
+}
+
+.flexboxing {
+  text-align: center;
+  color: black;
+}
+
+#main-div {
+  display: flex;
+  width: 50%;
+  height: 50px;
+  font-size: 30px;
+  justify-content: space-between;
+  margin: auto;
+  padding: 50px;
+  background-color: blue;
+  background-image: linear-gradient(red, yellow);
+}
+
+/* iska mtlb ye hai k main-div k andar jo bhi div hain unko neeche wala sb apply ho  */
+
+#main-div > div {
+  background-color: #f1f1f1;
+  margin-right: 5%;
+  width: 50px;
+  text-align: center;
+  padding: 8px;
+}

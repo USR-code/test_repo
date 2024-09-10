@@ -1,0 +1,25 @@
+1.display: flex .,.,.,.,.,ka mtlb sari vertical likhi huwi chizien horizontaly ajaty hain.
+
+2.  justify-content: space-between.,.,.,.,.,.,.,istarhan k aur bhi hain
+
+3.  text-align: center;
+
+4.  font-size: 30px;
+
+5.margin: auto;
+  padding: 50px;
+  background-color: blue;
+  background-image: linear-gradient(red, yellow);
+
+6.iska mtlb main div k andar jo div hai usmai niche wali properties lg jaien sari.
+#main-div > div {
+  background-color: #f1f1f1;
+  margin-right: 5%;
+  width: 50px;
+  text-align: center;
+  padding: 8px;
+}
+
+7.
+
+
